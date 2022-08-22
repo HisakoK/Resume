@@ -36,6 +36,11 @@ body{
   color:#e3eeff;
 }
 
+td i:before {
+  position:absolute;
+  margin-left:-15px;
+}
+
 ul.task li:before {
   content: '\2014';
   position: absolute;
